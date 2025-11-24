@@ -23,7 +23,7 @@ veracode_static_scan:
   break_build_on_error: false
   error_message: Veracode static scan faced a problem. Please contact your Veracode
   policy: Veracode Recommended Medium + SCA
-  create_code_scanning_alert: false
+  create_code_scanning_alert: true
   create_issue: true
   issues:
     trigger: true
